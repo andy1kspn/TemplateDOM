@@ -1,0 +1,41 @@
+.header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #bcbcbc, 
+                -5px -5px 15px #ffffff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #bcbcbc, 
+                -5px -5px 15px #ffffff;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  

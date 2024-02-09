@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+
+  }
+  
+  .App-header {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px #bcbcbc, -8px -8px 16px #ffffff; 
+    color:black;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 6px 6px 12px #bcbcbc, inset -6px -6px 12px #ffffff; 
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #bcbcbc, -6px -6px 12px #ffffff; 
+  }
+  
+  button:hover {
+    box-shadow: 8px 8px 16px #bcbcbc, -8px -8px 16px #ffffff; 
+  }
+  
